@@ -1,0 +1,19 @@
+.item-container{
+    position: relative;
+    padding: 10px;
+    border: 1px solid #1890ff33;
+    margin: 10px ;
+    background-color: #1890ff33;
+    border-radius: 5px;
+    &__title{
+        font-weight: bold;
+    }
+    &__menu{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

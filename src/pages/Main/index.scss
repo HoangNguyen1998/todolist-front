@@ -1,0 +1,43 @@
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+    // background-color: red;
+    .header{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .actions-container{
+        display: flex;
+        justify-content: space-between;
+        .input-search{
+
+        }
+        .btn-add{
+
+        }
+    }   
+    .board-container{
+        margin-top: 20px;
+        .header-column{
+            color: white;
+            background-color: #1890ff;
+            font-size: 16px;
+            padding: 10px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        &__row{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        &__column1{
+
+        }
+        &__column2{
+
+        }
+        &__column3{
+
+        }
+    }
+}
